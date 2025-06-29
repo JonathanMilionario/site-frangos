@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Frango</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Master Frango</h1>
+
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="menu.html">Cardápio</a>
+        <a href="cart.html">Carrinho</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <button id="darkModeToggle">🌙 Modo Escuro</button>
+    </header>
+
+    <section class="banner">
+      <h2>O Melhor Frango Assado da Região!</h2>
+      <button onclick="alert('Faça seu pedido pelo WhatsApp!')">
+        Peça Agora
+      </button>
+    </section>
+
+    <section class="produtos">
+      <h3>Nossos Frangos</h3>
+      <div class="produto">
+        <img src="200" alt="Frango Assado" />
+        <h4>Frango Assado Tradicional</h4>
+        <p>R$ 40,00</p>
+        <button onclick="adicionarAoCarrinho('Frango Tradicional')">
+          Adicionar
+        </button>
+      </div>
+      <!-- Adicione mais produtos aqui -->
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Master Frango</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

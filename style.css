@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff8f0;
+  color: #333;
+}
+
+header {
+  background: #c0392b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url("300") center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  background-color: #e67e22;
+}
+
+.produtos {
+  padding: 20px;
+  text-align: center;
+}
+
+.produto {
+  display: inline-block;
+  margin: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.produto img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.contato {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato input,
+.contato textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contato button {
+  background-color: #c0392b;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.contato button:hover {
+  background-color: #e74c3c;
+}
+
+.whatsapp,
+.mapa {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#darkModeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #444;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark-mode body {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #111;
+}
+
+.dark-mode .produto,
+.dark-mode .contato form {
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+}
