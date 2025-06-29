@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio | Master Frango</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cardápio</h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="menu.html">Cardápio</a>
+        <a href="cart.html">Carrinho</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <section class="produtos">
+      <h2>Escolha seu Frango</h2>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Frango Tradicional" />
+        <h4>Frango Assado Tradicional</h4>
+        <p>R$ 35,00</p>
+        <button onclick="adicionarAoCarrinho('Frango Tradicional', 35)">
+          Adicionar
+        </button>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Frango com Batata" />
+        <h4>Frango com Batata</h4>
+        <p>R$ 42,00</p>
+        <button onclick="adicionarAoCarrinho('Frango com Batata', 42)">
+          Adicionar
+        </button>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Frango com Farofa" />
+        <h4>Frango com Farofa</h4>
+        <p>R$ 40,00</p>
+        <button onclick="adicionarAoCarrinho('Frango com Farofa', 40)">
+          Adicionar
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Master Frango</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
